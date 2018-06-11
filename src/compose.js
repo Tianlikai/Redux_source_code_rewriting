@@ -1,3 +1,10 @@
+/**
+ * 
+ * @param {*} func 
+ * @return {最终返回一个函数，并且接收一个参数，最终形成一个管道}
+ * [1,2,3,4,5,6,7]
+ * 1(2(3(4(5(6(7(...args))))))) 从右到左一次执行并且将上一次结果当作结果传入
+ */
 function compose(...func) {
     // 为空 直接返回输入
     if (!func.length) arg => arg
@@ -8,3 +15,4 @@ function compose(...func) {
 }
 
 module.exports = compose
+

@@ -57,7 +57,8 @@ api
 * redux 中大量使用柯里化函数。什么是柯里化？柯里化的作用？
 * combineReducer({key: reducer}) 中key中作用是什么?
 * dispatch(action) 都发生了什么？最终怎么改变store的？又是怎么最终改变页面中的state的？
-* 异步请求处理的切入点？可以怎么简单自定义洋葱模型做一些自定义处理？
+* applyMiddleware / compose / middleware 怎么组合起来？
+* 异步请求处理的切入点？可以怎么简单自定义洋葱模型做一些自定义处理，middleware应该怎么定义？
 * 原生 react 如何配合 redux？什么地方可以做优化？
 ## 项目结构
 
