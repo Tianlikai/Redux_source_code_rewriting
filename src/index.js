@@ -6,5 +6,6 @@ const applyMiddleware = require('./applyMiddleware')
 module.exports = {
     compose,
     combineReducer,
-    createStore
+    createStore,
+    applyMiddleware
 }
