@@ -1,8 +1,8 @@
 const {compose} = require('./compose')
-
+const thunkMiddleware = require('../thunk/thunkMiddleware')
 
 /**
- * 
+ * applyMiddleware
  * @param {*} middlewares 
  */
 function applyMiddleware (...middlewares){
@@ -24,3 +24,4 @@ function applyMiddleware (...middlewares){
         }
     }
 }
+
