@@ -21,7 +21,7 @@ function createStore(reducer, initialState, enhancer) {
         if (typeof enhancer !== 'function'){
             throw new Error('enhancer 应该是一个function')
         }
-        enhancer(createStore)(reducer, initialState)
+        return enhancer(createStore)(reducer, initialState)
     }
     // 检测reducer
     if (typeof reducer !== 'function'){
