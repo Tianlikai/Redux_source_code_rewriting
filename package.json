@@ -1,0 +1,27 @@
+{
+  "name": "redux_code",
+  "version": "1.0.0",
+  "description": "redux source-code tutorail",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tianlikai/Redux_source_code_rewriting.git"
+  },
+  "keywords": [
+    "redux",
+    "source-code",
+    "tutprrail"
+  ],
+  "author": "jason tian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tianlikai/Redux_source_code_rewriting/issues"
+  },
+  "homepage": "https://github.com/Tianlikai/Redux_source_code_rewriting#readme"
+}
