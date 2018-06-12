@@ -14,3 +14,5 @@ function thunkMiddleware ({dispatch, getState}) { // 接受store的 dispatch 和
         }
     }
 }
+
+module.exports = thunkMiddleware
