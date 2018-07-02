@@ -1,5 +1,4 @@
-const {compose} = require('./compose')
-const thunkMiddleware = require('../thunk/thunkMiddleware')
+import compose from './compose'
 
 /**
  * applyMiddleware
@@ -24,4 +23,6 @@ function applyMiddleware (...middlewares){
         }
     }
 }
+
+export default applyMiddleware
 

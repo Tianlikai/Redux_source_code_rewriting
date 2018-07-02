@@ -1,10 +1,10 @@
-const compose = require('./compose')
-const combineReducer = require('./combineReducer')
-const createStore = require('./createStore')
-const applyMiddleware = require('./applyMiddleware')
-const bindActionCreators = require('./bindActionCreators')
+import compose from './compose'
+import combineReducer from'./combineReducer'
+import createStore from './createStore'
+import applyMiddleware from './applyMiddleware'
+import bindActionCreators from './bindActionCreators'
 
-module.exports = {
+export {
     compose,
     combineReducer,
     createStore,

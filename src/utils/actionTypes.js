@@ -11,4 +11,4 @@ const ActionTypes = {
   PROBE_UNKNOWN_ACTION: () => `@@redux/PROBE_UNKNOWN_ACTION${randomString()}`
 }
 
-module.exports = ActionTypes
+export default ActionTypes

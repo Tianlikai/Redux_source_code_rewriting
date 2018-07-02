@@ -18,4 +18,4 @@ function warning(message) {
     } catch (e) {} // eslint-disable-line no-empty
   }
   
-  module.exports = warning
+export default warning

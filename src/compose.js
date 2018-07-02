@@ -5,7 +5,7 @@
  * [1,2,3,4,5,6,7]
  * 1(2(3(4(5(6(7(...args))))))) 从右到左一次执行并且将上一次结果当作结果传入
  */
-function compose(...func) {
+export default function compose(...func) {
     // 为空 直接返回输入
     if (!func.length) arg => arg
     // 返回第一个函数
@@ -13,6 +13,4 @@ function compose(...func) {
     // 柯里·化 reduce
     return func.reduce((a, b) => (...args) => a(b(...args)))
 }
-
-module.exports = compose
 

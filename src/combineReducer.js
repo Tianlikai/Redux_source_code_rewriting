@@ -1,6 +1,6 @@
-const ActionTypes = require('./utils/actionTypes')
-const isPlainObject = require('./utils/isPlainObject')
-const warning = require('./utils/warning')
+import ActionTypes from './utils/actionTypes'
+import isPlainObject from './utils/isPlainObject'
+import warning from './utils/warning'
 
 /**
  * assertReducerSanity函数主要是对 reducer 合法性进行验证。
@@ -125,5 +125,5 @@ function combineReducer (reducers) {
     }
 }
 
-module.exports = combineReducer
+export default combineReducer
 

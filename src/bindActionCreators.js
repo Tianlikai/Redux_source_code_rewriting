@@ -36,4 +36,4 @@ function bindActionCreators (actionCreators, dispatch) {
     return boundActionCreators
 }
 
-module.exports = bindActionCreators
+export default bindActionCreators

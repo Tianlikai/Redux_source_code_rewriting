@@ -1,4 +1,4 @@
-const isPlainObject = require('./utils/isPlainObject')
+import isPlainObject from './utils/isPlainObject'
 
 const ActionTypes = {
     INIT: '@@redux/INIT'
@@ -105,6 +105,6 @@ function createStore(reducer, initialState, enhancer) {
     }
 }
 
-module.exports = createStore
+export default createStore
 
 

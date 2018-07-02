@@ -12,4 +12,4 @@ function isPlainObject(obj) {
     return Object.getPrototypeOf(obj) === proto
 }
 
-module.exports = isPlainObject
+export default isPlainObject
