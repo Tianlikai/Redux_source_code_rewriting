@@ -47,6 +47,7 @@ UI = render(store)
 * reducer 为纯函数，没有任何副作用
 
 api
+* 123
 * createStore(reducer, initialState, enhancer)
 * compose(...func)
 * applyMiddleware(...middleware)
