@@ -19,9 +19,9 @@ function bindActionCreators (actionCreators, dispatch) {
         return bindActionCreator(actionCreators, dispatch)
     }
 
-    if (typeof actionCreators !== 'object' || typeof actionCreators ===null) {
+    if (typeof actionCreators !== 'object' || typeof actionCreators === null) {
         throw new Error('bindActionCreators 期望接收到一个 function 或者 object 参数，不能为空或null')
-    }
+    } 
 
     let keys = Object.keys(actionCreators)
     let boundActionCreators = {}

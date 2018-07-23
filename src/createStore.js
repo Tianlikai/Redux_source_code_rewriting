@@ -100,7 +100,6 @@ function createStore(reducer, initialState, enhancer) {
         getState,
         dispatch,
         subscribe,
-        dispatch,
         replaceReducer
     }
 }
